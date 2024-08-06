@@ -1,0 +1,63 @@
+html, body {
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    position: relative;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+
+    z-index: 100;
+}
+
+.message .card {
+    background-color: white;
+    width: 40%;
+    height: 20%;
+
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card span {
+    top: 1em;
+    font-size: 1.2rem;
+
+    position: absolute;
+}
+
+.card button {
+    position: absolute;
+    bottom: 1em;
+
+    background-color: #2096ED;
+    color: white;
+    border: none;
+    border-radius: .2em;
+    padding: .5em 2em;
+
+    cursor: pointer;
+    box-shadow: 3px 3px 5px skyblue;
+}
+
+h1 {
+    margin: 0;
+    color: green;
+}
